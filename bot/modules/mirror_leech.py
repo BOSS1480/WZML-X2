@@ -375,7 +375,7 @@ async def wzmlxcb(_, query):
     user_id = query.from_user.id
     data = query.data.split()
     if user_id != int(data[1]):
-        return await query.answer(text="Not Yours!", show_alert=True)
+        return await query.answer(text="Tʜᴀᴛ's Nᴏᴛ Yᴏᴜʀs...😤", show_alert=True)
     elif data[2] == "logdisplay":
         await query.answer()
         async with aiopen('log.txt', 'r') as f:
