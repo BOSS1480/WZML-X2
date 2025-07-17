@@ -458,7 +458,7 @@ async def edit_user_settings(client, query):
     rclone_path = f'wcl/{user_id}.conf'
     user_dict = user_data.get(user_id, {})
     if user_id != int(data[1]):
-        await query.answer("Not Yours!", show_alert=True)
+        await query.answer("Tʜᴀᴛ's Nᴏᴛ Yᴏᴜʀs...😤", show_alert=True)
     elif data[2] in ['universal', 'mirror', 'leech']:
         await query.answer()
         await update_user_settings(query, data[2])
