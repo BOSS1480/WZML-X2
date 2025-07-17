@@ -126,7 +126,7 @@ async def mdl_callback(_, query):
     user_id = query.from_user.id
     data = query.data.split()
     if user_id != int(data[1]):
-        await query.answer("Not Yours!", show_alert=True)
+        await query.answer("Tʜᴀᴛ's Nᴏᴛ Yᴏᴜʀs...😤", show_alert=True)
     elif data[2] == "drama":
         await query.answer()
         mdl = await extract_MDL(data[3])
