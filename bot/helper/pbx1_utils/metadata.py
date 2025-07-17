@@ -1,5 +1,3 @@
-
-
 #!/usr/bin/env python3
 from aiofiles.os import remove as aioremove, path as aiopath, listdir, rmdir, makedirs
 from aioshutil import rmtree as aiormtree, move
@@ -181,7 +179,6 @@ async def join_files(path):
                     await aioremove(f'{path}/{file_}')
 
 
-# metadata credit TG @NordBotz
 async def edit_metadata(listener, base_dir: str, media_file: str, outfile: str, metadata: str = ''):
     cmd = [bot_cache['pkgs'][2], '-hide_banner', '-loglevel', 'error', '-ignore_unknown', '-i', media_file, '-metadata', f'title={metadata}',
            '-metadata:s:v', f'title={metadata}', '-metadata', 'Comment=', '-metadata', 'Copyright=', '-metadata', f'AUTHOR=𝗧𝗝 𝗕𝗼𝘁𝘀', '-metadata', 'Encoded by=', '-metadata', 'SYNOPSIS=', '-metadata', 'ARTIST=', '-metadata', 'PURL=', '-metadata', 'Encoded_by=', '-metadata', 'Description=', '-metadata', 'description=', '-metadata', 'SUMMARY=', '-metadata', 'WEBSITE=', '-metadata:s:a', f'title={metadata}',
