@@ -262,7 +262,7 @@ class WZMLStyle:
 ➲ <u><b>Available Args:</b></u>
 • <b>-s</b> or <b>-set</b>: Set Directly via Arg 😁
 
-<b><a href="https://t.me/Tj_BotsBots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b>'''
+<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b>'''
 
     UNIVERSAL = '''㊂ ✔️<b><u>Universal Settings : {NAME}</u></b>
 ┎📺 <b> YT-DLP Options :</b> <b><code>{YT}</code></b>
