@@ -193,11 +193,11 @@ class WZMLStyle:
     UPLOADED =                                     '<b>Uploaded: </b> {Upload}'
     RATIO =          '\n┠ <b>Ratio: </b> {Ratio} | '
     TIME =                                         '<b>Time: </b> {Time}'
-    SEED_ENGINE =    '\n┠ <b>Engine:</b> {Engine}'
+    SEED_ENGINE =    '\n┠⚙️ <b>Engine:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
     STATUS_SIZE =    '\n┠📊 <b>Size: </b>{Size}'
-    NON_ENGINE =     '\n┠ <b>Engine:</b> {Engine}'
+    NON_ENGINE =     '\n┠⚙️ <b>Engine:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
     USER =              '\n┠🙋 <b>User:</b> <code>{User}</code> | '
