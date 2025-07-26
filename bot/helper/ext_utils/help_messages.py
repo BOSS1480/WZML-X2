@@ -207,7 +207,7 @@ If you want to add path manually from your config (uploaded from usetting) add <
 ➲ <b><i>RClone Flags</i></b>: -rcf
 <code>/cmd</code> link|path|rcl -up path|rcl -rcf --buffer-size:8M|--drive-starred-only|key|key:value
 This will override all other flags except --exclude
-Check here all <a href='https://rclone.org/flags/'>RcloneFlags</a>.</blockquote>
+Check here all <a href='https://rclone.org/flags/'>RcloneFlags</a></blockquote>
 
 <blockquote>➲ <b><i>Bulk Download</i></b>: -b or -bulk
 Bulk can be used by text message and by replying to text file contains links seperated by new line.
