@@ -3,7 +3,7 @@ from bot.helper.telegram_helper.bot_commands import BotCommands
 
 YT_HELP_MESSAGE = ["""<i>Send links/files along with cmd or reply to cmd to mirror or leech ytdl supported stes on Telegram or GDrive or DDLs with different Engines like RClone or yt-dlp</i>
 
-<blockquote expandable>➲ <b><u>Available Args</u></b>:
+<blockquote>➲ <b><u>Available Args</u></b>:
 
 1.  <b>-n or -name :</b> Rename file.
 2.  <b>-z or -zip :</b> Zip files or Links
@@ -111,7 +111,7 @@ Check all yt-dlp API options from this <a href='https://github.com/yt-dlp/yt-dlp
 
 MIRROR_HELP_MESSAGE = ["""<i>Send links/files along with cmd or reply to cmd to mirror or leech on Telegram or GDrive or DDLs with different Engines like RClone, Aria2 or qBit</i>
 
-<blockquote expandable>➲ <b><u>Available Args</u></b>:
+<blockquote>➲ <b><u>Available Args</u></b>:
 
 1.  <b>-n or -name :</b> Rename file.
 2.  <b>-z or -zip :</b> Zip files or Links
@@ -133,7 +133,7 @@ MIRROR_HELP_MESSAGE = ["""<i>Send links/files along with cmd or reply to cmd to 
 20. <b>-ss or -screenshots :</b> Generate Screenshots for Leeched Files
 21. <b>-t or -thumb :</b> Custom Thumb for Specific Leech</blockquote>
 """, """
-<blockquote expandable>➲ <b><i>By along the cmd</i></b>:
+<blockquote>➲ <b><i>By along the cmd</i></b>:
 <code>/cmd</code> link -n new name
 
 ➲ <b><i>By replying to link/file</i></b>:
@@ -209,7 +209,7 @@ If you want to add path manually from your config (uploaded from usetting) add <
 This will override all other flags except --exclude
 Check here all <a href='https://rclone.org/flags/'>RcloneFlags</a>.</blockquote>
 
-<blockquote expandable>➲ <b><i>Bulk Download</i></b>: -b or -bulk
+<blockquote>➲ <b><i>Bulk Download</i></b>: -b or -bulk
 Bulk can be used by text message and by replying to text file contains links seperated by new line.
 You can use it only by reply to message(text/file).
 All options should be along with link!
@@ -251,7 +251,7 @@ Some links need user access so sure you must add USER_SESSION_STRING for it.
 """]
 
 RSS_HELP_MESSAGE = """
-<blockquote expandable>➲ <b>Format to adding feed url(s):</b>
+<blockquote>➲ <b>Format to adding feed url(s):</b>
 Title1 link (required)
 Title2 link -c cmd -inf xx -exf xx
 Title3 link -c cmd -d ratio:time -z password
