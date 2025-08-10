@@ -288,7 +288,7 @@ CLONE_HELP_MESSAGE = ["""<i>Send Gdrive | Gdtot | Filepress | Filebee | Appdrive
 """➲ <b><i>Links:</i></b>
 Gdrive | Gdtot | Filepress | Filebee | Appdrive | Gdflix link or rclone path
 
-<blockquote expandable>➲ <b><i>Multi Links (only by replying to first gdlink or rclone_path):</i></b>
+<blockquote>➲ <b><i>Multi Links (only by replying to first gdlink or rclone_path):</i></b>
 <code>/cmd</code> -i 10(number of links/paths)
 
 ➲ <b><i>Gdrive Link:</i></b>
