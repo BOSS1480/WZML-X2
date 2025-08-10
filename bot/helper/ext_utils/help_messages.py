@@ -21,7 +21,7 @@ YT_HELP_MESSAGE = ["""<i>Send links/files along with cmd or reply to cmd to mirr
 14. <b>-ss or -screenshots :</b> Generate Screenshots for Leeched Files
 15. <b>-t or -thumb :</b> Custom Thumb for Specific Leech </blockquote>
 """, """
-<blockquote expandable>➲ <b><i>Send link along with command line</i></b>:
+<blockquote>➲ <b><i>Send link along with command line</i></b>:
 <code>/cmd</code> link -s -n new name -opt x:y|x1:y1
 
 ➲ <b><i>By replying to link</i></b>:
@@ -277,7 +277,7 @@ Another example: inf:  1080  or 720p|.web. or .webrip.|hvec or x264. This will p
 
 CLONE_HELP_MESSAGE = ["""<i>Send Gdrive | Gdtot | Filepress | Filebee | Appdrive | Gdflix link or RClone path along with or by replying to the link/rc_path by command with args.</i>
 
-<blockquote expandable>➲ <b><u>Available Args</u></b>:
+<blockquote>➲ <b><u>Available Args</u></b>:
 
 1. <b>-up or -upload :</b> Upload to your Drive or RClone or DDL
 2. <b>-i :</b> Download multi links by reply
@@ -313,7 +313,7 @@ CATEGORY_HELP_MESSAGE = """Reply to an active /{cmd} which was used to start the
 This command mainly for change category incase you decided to change category from already added download.
 But you can always use -c or -category with to select category before download start.
 
-<blockquote expandable>➲ <b><i>Upload Custom Drive</i></b>
+<blockquote>➲ <b><i>Upload Custom Drive</i></b>
 <code>/{cmd}</code> -id <code>drive_folder_link</code> or <code>drive_id</code> -index <code>https://example.com/0:</code> gid or by replying to active download
 
 <b>NOTE:</b> drive_id must be folder id or folder link and index must be url else it will not accept.
@@ -321,7 +321,7 @@ But you can always use -c or -category with to select category before download s
 
 help_string = [f'''⌬ <b><i>Bᴀsɪᴄ Cᴏᴍᴍᴀɴᴅs!</i></b>
 
-<blockquote expandable><b>Use Mirror commands to download your link/file/rcl</b>
+<blockquote><b>Use Mirror commands to download your link/file/rcl</b>
 ┠ /{BotCommands.MirrorCommand[0]} or /{BotCommands.MirrorCommand[1]}: Download via file/url/media to Upload to Cloud Drive.
 ┖ /{BotCommands.CategorySelect}: Select Custom category to Upload to Cloud Drive from UserTds or Bot Categories.
 
@@ -347,7 +347,7 @@ help_string = [f'''⌬ <b><i>Bᴀsɪᴄ Cᴏᴍᴍᴀɴᴅs!</i></b>
 
 f'''⌬ <b><i>Usᴇʀs Cᴏᴍᴍᴀɴᴅs!</i></b>
 
-<blockquote expandable><b>Bot Settings:</b>
+<blockquote><b>Bot Settings:</b>
 ┖ /{BotCommands.UserSetCommand[0]} or /{BotCommands.UserSetCommand[1]} [query]: Open User Settings (PM also)
 
 <b>Authentication:</b>
@@ -363,7 +363,7 @@ f'''⌬ <b><i>Usᴇʀs Cᴏᴍᴍᴀɴᴅs!</i></b>
 
 f'''⌬ <b><i>Oᴡɴᴇʀ ᴏʀ Sᴜᴅᴏs Cᴏᴍᴍᴀɴᴅs!</i></b>
 
-<blockquote expandable><b>Bot Settings:</b>
+<blockquote><b>Bot Settings:</b>
 ┠ /{BotCommands.BotSetCommand[0]} or /{BotCommands.BotSetCommand[1]} [query]: Open Bot Settings (Only Owner & Sudo).
 ┖ /{BotCommands.UsersCommand}: Show User Stats Info (Only Owner & Sudo).
 
@@ -405,7 +405,7 @@ f'''⌬ <b><i>Oᴡɴᴇʀ ᴏʀ Sᴜᴅᴏs Cᴏᴍᴍᴀɴᴅs!</i></b>
 
 f'''⌬ <b><i>Mɪsᴄᴇʟʟᴀɴᴇᴏᴜs Cᴏᴍᴍᴀɴᴅs!</i></b>
 
-<blockquote expandable><b>Extras:</b>
+<blockquote><b>Extras:</b>
 ┠ /{BotCommands.SpeedCommand[0]} or /{BotCommands.SpeedCommand[1]}: Check Speed in VPS/Server.
 ┖ /{BotCommands.MediaInfoCommand[0]} or /{BotCommands.MediaInfoCommand[1]} [url/media]: Generate MediaInfo of Media or DL Urls
 
@@ -421,7 +421,7 @@ f'''⌬ <b><i>Mɪsᴄᴇʟʟᴀɴᴇᴏᴜs Cᴏᴍᴍᴀɴᴅs!</i></b>
 ''']
 
 PASSWORD_ERROR_MESSAGE = """
-<blockquote expandable><b>This link requires a password!</b>
+<blockquote><b>This link requires a password!</b>
 - Insert sign <b>::</b> after the link and write the password after the sign.
 <b>Example:</b> {}::love you
 Note: No spaces between the signs <b>::</b>
