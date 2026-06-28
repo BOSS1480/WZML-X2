@@ -268,7 +268,9 @@ class WZMLStyle:
 ╰<b> Language :</b> {LANG}</blockquote>
 
 <blockquote>➲ <u><b>Available Args:</b></u>
-• <b>-s</b> or <b>-set</b>: Set Directly via Arg</blockquote>"""
+• <b>-s</b> or <b>-set</b>: Set Directly via Arg</Blockquote>
+
+<blockquote><b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b></blockquote>"""
 
     UNIVERSAL = """㊂ <b><u>Universal Settings : {NAME}</u></b>
 
@@ -278,7 +280,9 @@ class WZMLStyle:
 ┊<b> User Session :</b> <code>{USESS}</code>
 ┊<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
 ┊<b> Save Mode :</b> <code>{SAVE_MODE}</code>
-╰<b> User Bot PM :</b> <code>{BOT_PM}</code></blockquote>"""
+╰<b> User Bot PM :</b> <code>{BOT_PM}</code>
+
+<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b></blockquote>"""
 
     MIRROR = """㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
@@ -289,7 +293,9 @@ class WZMLStyle:
 ┊<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
 ┊<b> User TD Mode :</b> <i>{TMODE}</i>
 ┊<b> Total User TD(s) :</b> <i>{USERTD}</i>
-╰<b> Daily Mirror :</b> <code>{DM}</code> per day</blockquote>"""
+╰<b> Daily Mirror :</b> <code>{DM}</code> per day
+
+<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b></blockquote>"""
 
     LEECH = """㊂ <b><u>Leech Settings for {NAME}</u></b>
 
@@ -304,4 +310,6 @@ class WZMLStyle:
 ┊<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
 ┊<b> Leech Dumps :</b> <code>{LDUMP}</code>
 ┊<b> Leech Remname :</b> <code>{LREMNAME}</code>
-╰<B> Leech Metadata :</b> <code>{LMETA}</code></blockquote>"""
+╰<B> Leech Metadata :</b> <code>{LMETA}</code>
+
+<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b></blockquote>"""
