@@ -136,7 +136,7 @@ class WZMLStyle:
     L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '┎🏷️ <b>Name:  <blockquote><i>{Name}</i></blockquote></b>\n'
+    NAME =                  '<blockquote>┎🏷️ <b>Name:  <i>{Name}</i></b>\n'
     SIZE =                  '┠📊 <b>Size: </b>{Size}\n'
     ELAPSE =                '┠⏰ <b>Elapsed: </b>{Time}\n'
     MODE =                  '┠💠 <b>Mode: </b>{Mode}\n'
@@ -154,7 +154,7 @@ class WZMLStyle:
     M_SUBFOLD =             '┠ <b>SubFolders: </b>{Folder}\n'
     TOTAL_FILES =           '┠ <b>Files: </b>{Files}\n'
     RCPATH =                '┠ <b>Path: </b><code>{RCpath}</code>\n'
-    M_CC =                  '┖ <b>By: </b>{Tag}\n\n'
+    M_CC =                  '┖ <b>By: </b>{Tag}</blockquote>\n\n'
     M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ Cloud Link'
@@ -173,7 +173,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '┎🏷️ <b>Name:  <blockquote><i>{Name}</i></blockquote></b>'
+    STATUS_NAME =       '<blockquote>┎🏷️ <b>Name: <i>{Name}</i></b>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
@@ -203,18 +203,18 @@ class WZMLStyle:
     USER =              '\n┠🙋 <b>User:</b> <code>{User}</code> | '
     ID =                                                        '<b>🪪 ID:</b> <code>{Id}</code>'
     BTSEL =          '\n┠✂️ <b>Select:</b> {Btsel}'
-    CANCEL =         '\n┖❌ {Cancel}\n\n'
+    CANCEL =         '\n┖❌ {Cancel}</blockquote>\n\n'
 
     ####------FOOTER--------
     FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
-    TASKS =  '┠ <b>Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
-    Cpu = '┠ <b>CPU:</b> {cpu}% | '
+    TASKS =  '<blockquote>┠ <b>Tasks:</b> {Tasks}\n'
+    BOT_TASKS = '<blockquote>┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
+    Cpu = '<blockquote>┠ <b>CPU:</b> {cpu}% | '
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
     Ram = '\n┠ <b>RAM:</b> {ram}% | '
     uptime =                     '<b>UPTIME:</b> {uptime}'
     DL = '\n┖ <b>DL:</b> {DL}/s | '
-    UL =                        '<b>UL:</b> {UL}/s'
+    UL =                        '<b>UL:</b> {UL}/s</blockquote>'
 
     ###--------BUTTONS-------
     PREVIOUS = '⫷'
@@ -246,13 +246,13 @@ class WZMLStyle:
     NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
     
 ⌬ <b><i>Bot Stats</i></b>
-┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
-┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
+<blockquote>┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
+┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}</blockquote>
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py 
-    USER_SETTING = '''㊂ <b><u>User Settings :</u></b>
+    USER_SETTING = '''<blockquote>㊂ <b><u>User Settings :</u></b>
         
 ┎👤 <b> Name :</b> {NAME} ( <code>{ID}</code> )
 ┠🔖 <b> Username :</b> {USERNAME}
@@ -262,9 +262,9 @@ class WZMLStyle:
 ➲ <u><b>Available Args:</b></u>
 • <b>-s</b> or <b>-set</b>: Set Directly via Arg 😁
 
-<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b>'''
+<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b></blockquote></blockquote>'''
 
-    UNIVERSAL = '''㊂ ✔️<b><u>Universal Settings : {NAME}</u></b>
+    UNIVERSAL = '''<blockquote>㊂ ✔️<b><u>Universal Settings : {NAME}</u></b>
 ┎📺 <b> YT-DLP Options :</b> <b><code>{YT}</code></b>
 ┠🚧 <b> Daily Tasks :</b> <code>{DT}</code> per day
 ┠🟢 <b> Last Bot Used :</b> <code>{LAST_USED}</code>
@@ -273,9 +273,9 @@ class WZMLStyle:
 ┠📩 <b> Save Mode :</b> <code>{SAVE_MODE}</code>
 ┖🕵️ <b> User Bot PM :</b> <code>{BOT_PM}</code>
 
-<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b>'''
+<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b></blockquote>'''
 
-    MIRROR = '''㊂ ✔️<b><u>Mirror/Clone Settings : {NAME}</u></b>
+    MIRROR = '''<blockquote>㊂ ✔️<b><u>Mirror/Clone Settings : {NAME}</u></b>
 ┎🎀 <b> RClone Config :</b> <i>{RCLONE}</i>
 ┠Ⓟ <b> Mirror Prefix :</b> <code>{MPREFIX}</code>
 ┠Ⓢ <b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
@@ -285,8 +285,8 @@ class WZMLStyle:
 ┠📝 <b> Total User TD(s) :</b> <i>{USERTD}</i>
 ┖☁️ <b> Daily Mirror :</b> <code>{DM}</code> per day
 
-<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b>'''
-    LEECH = '''㊂ ✔️<b><u>Leech Settings for {NAME}</u></b>
+<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b></blockquote>'''
+    LEECH = '''<blockquote>㊂ ✔️<b><u>Leech Settings for {NAME}</u></b>
 ┎📂 <b> Daily Leech : </b><code>{DL}</code> per day
 ┠⚙️ <b> Leech Type :</b> <i>{LTYPE}</i>
 ┠🖼️ <b> Custom Thumbnail :</b> <i>{THUMB}</i>
@@ -300,4 +300,4 @@ class WZMLStyle:
 ┠📄 <b> Metadata Text :</b> <code>{LMETA}</code>
 ┖🌈 <b> Leech Remname :</b> <code>{LREMNAME}</code>
 
-<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b>'''
+<b><a href="https://t.me/Tj_Bots">❤️ Powered By 𝗧𝗝 𝗕𝗼𝘁𝘀 ❤️</a></b></blockquote>'''
